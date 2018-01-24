@@ -15,7 +15,14 @@
             asd.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Depo", Action = "Index" });
         });
 
-        group.Items.Add("Item 2");
+        group.Items.Add(asd =>
+        {
+            asd.Text = "Grup Ýþlemleri";
+            asd.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Grup", Action = "Index" });
+        });
+
+
+
         group.Items.Add("Item 3");
     });
     settings.Groups.Add(group => {
