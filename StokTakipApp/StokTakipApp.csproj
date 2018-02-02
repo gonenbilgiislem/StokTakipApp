@@ -45,6 +45,424 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevExpress.Charts.Designer.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Charts.Designer.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Dashboard.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Web.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Dashboard.v17.2.Web.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dashboard.v17.2.Win.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Dashboard.v17.2.Win.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Data.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.DataAccess.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.DataAccess.v17.2.UI.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.DataAccess.v17.2.UI.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Diagram.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Diagram.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Dialogs.v17.2.Core.resources">
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Dialogs.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.AuditTrail.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.AuditTrail.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Dashboards.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Dashboards.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Dashboards.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Dashboards.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Dashboards.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Dashboards.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.FileAttachment.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.FileAttachment.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.FileAttachment.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.FileAttachment.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.HtmlPropertyEditor.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Kpi.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Kpi.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Mobile.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Mobile.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Notifications.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Notifications.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Notifications.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Notifications.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Objects.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Objects.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Reports.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Reports.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Reports.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Reports.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Reports.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Reports.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.ReportsV2.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ReportsV2.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.ReportsV2.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Scheduler.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Scheduler.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Scheduler.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Scheduler.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Scheduler.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Scheduler.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ScriptRecorder.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.ScriptRecorder.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Security.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Security.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.StateMachine.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.StateMachine.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Validation.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Validation.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.ViewVariantsModule.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Workflow.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Workflow.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.ExpressApp.Workflow.Win.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.ExpressApp.Workflow.Win.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Map.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Map.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Office.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Pdf.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.PivotGrid.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.PivotGrid.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Printing.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.RichEdit.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Snap.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v17.2.Extensions.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Snap.v17.2.Extensions.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Snap.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Snap.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Sparkline.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Spreadsheet.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Spreadsheet.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Utils.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v17.2.UI.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Utils.v17.2.UI.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxHtmlEditor.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxHtmlEditor.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxRichEdit.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxRichEdit.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxScheduler.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxScheduler.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpellChecker.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxSpellChecker.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxSpreadsheet.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxSpreadsheet.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.ASPxTreeList.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.ASPxTreeList.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.Resources.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.Resources.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Web.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Web.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Charts.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Charts.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Controls.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Controls.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Core.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Docking.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Docking.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.DocumentViewer.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.DocumentViewer.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Gauges.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Gauges.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Grid.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Grid.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.NavBar.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.NavBar.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PdfViewer.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.PdfViewer.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Printing.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Printing.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.PropertyGrid.v17.2.resources, Version=17.2.4.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.ReportDesigner.v17.2.resources, Version=17.2.0.0, Culture=ru, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.ReportDesigner.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Ribbon.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.RichEdit.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.RichEdit.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduler.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Scheduler.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Scheduling.v17.2.resources">
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Scheduling.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.SpellChecker.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.SpellChecker.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Spreadsheet.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpf.Spreadsheet.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xpo.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.Xpo.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraBars.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraCharts.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraCharts.v17.2.Wizard.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraCharts.v17.2.Wizard.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraEditors.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraGauges.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGauges.v17.2.Presets.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraGauges.v17.2.Presets.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraGrid.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraLayout.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraNavBar.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraNavBar.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPdfViewer.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraPdfViewer.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPivotGrid.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraPivotGrid.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraPrinting.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.Extensions.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraReports.v17.2.Extensions.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraReports.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraReports.v17.2.Web.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraReports.v17.2.Web.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.2.Extensions.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraRichEdit.v17.2.Extensions.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraRichEdit.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Core.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraScheduler.v17.2.Core.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Extensions.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraScheduler.v17.2.Extensions.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.2.Reporting.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraScheduler.v17.2.Reporting.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraScheduler.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraScheduler.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpellChecker.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraSpellChecker.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraSpreadsheet.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraSpreadsheet.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraTreeList.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraVerticalGrid.v17.2.resources.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraWizard.v17.2.resources, Version=17.2.0.0, Culture=de, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\baris.ozen.BALIKESIRGONEN\Downloads\Programs\devex172\DevExpressLocalizedResources_2017.2_tr\DevExpress.XtraWizard.v17.2.resources.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -290,6 +708,10 @@
     <Content Include="Views\Account\VerifyCode.cshtml" />
     <Content Include="Views\Manage\SetPassword.cshtml" />
     <Content Include="Views\Home\GridViewPartialView.cshtml" />
+    <Content Include="Views\OlcuBirim\Index.cshtml" />
+    <Content Include="Views\OlcuBirim\_OlcuBirimGridViewPartial.cshtml" />
+    <Content Include="Views\Malzeme\Index.cshtml" />
+    <Content Include="Views\Malzeme\_MalzemeGridView1Partial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -307,7 +729,9 @@
     <Compile Include="Controllers\DepoController.cs" />
     <Compile Include="Controllers\GrupController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MalzemeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\OlcuBirimController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

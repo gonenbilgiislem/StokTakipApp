@@ -9,6 +9,12 @@
     settings.ControlStyle.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(0);
     settings.Groups.Add(group => {
         group.Text = "Ýþlemler";
+
+
+
+    });
+    settings.Groups.Add(group => {
+        group.Text = "Sabitler";
         group.Items.Add(asd =>
         {
             asd.Text = "Depo Ýþlemleri";
@@ -21,17 +27,17 @@
             asd.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Grup", Action = "Index" });
         });
 
+        group.Items.Add(asd =>
+        {
+            asd.Text = "Ölçü Birim Ýþlemleri";
+            asd.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "OlcuBirim", Action = "Index" });
+        });
 
-
-        group.Items.Add("Item 3");
-    });
-    settings.Groups.Add(group => {
-        group.Text = "Group 2";
-        group.Items.Add("Item 1");
-        group.Items.Add("Item 2");
-        group.Items.Add("Item 3");
-        group.Items.Add("Item 4");
-        group.Items.Add("Item 5");
+        group.Items.Add(asd =>
+        {
+            asd.Text = "Malzeme Ýþlemleri";
+            asd.NavigateUrl = DevExpressHelper.GetUrl(new { Controller = "Malzeme", Action = "Index" });
+        });
     });
 }).GetHtml()
 </div>

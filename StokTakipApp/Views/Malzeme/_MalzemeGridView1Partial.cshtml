@@ -1,0 +1,45 @@
+@{
+	var grid = Html.DevExpress().GridView(settings => {
+        settings.Name = "MalzemeGridView1";
+        settings.CallbackRouteValues = new { Controller = "Malzeme", Action = "MalzemeGridView1Partial" };
+
+				settings.SettingsEditing.AddNewRowRouteValues = new { Controller = "Malzeme", Action = "MalzemeGridView1PartialAddNew" };
+        settings.SettingsEditing.UpdateRowRouteValues = new { Controller = "Malzeme", Action = "MalzemeGridView1PartialUpdate" };
+        settings.SettingsEditing.DeleteRowRouteValues = new { Controller = "Malzeme", Action = "MalzemeGridView1PartialDelete" };
+        settings.SettingsEditing.Mode = GridViewEditingMode.EditFormAndDisplayRow;
+        settings.SettingsBehavior.ConfirmDelete = true;
+
+		settings.CommandColumn.Visible = true;
+        settings.CommandColumn.ShowNewButton = true;
+        settings.CommandColumn.ShowDeleteButton = true;
+        settings.CommandColumn.ShowEditButton = true;
+
+		settings.KeyFieldName = "Id";
+
+		settings.SettingsPager.Visible = true;
+		settings.Settings.ShowGroupPanel = true;
+		settings.Settings.ShowFilterRow = true;
+		settings.SettingsBehavior.AllowSelectByRowClick = true;
+
+		settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.Off;
+		settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.Right;
+		settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+		settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = false;
+		settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+
+				settings.Columns.Add("Kod");
+				settings.Columns.Add("Ad");
+				settings.Columns.Add("Barkod");
+				settings.Columns.Add("GrupId");
+				settings.Columns.Add("OlcuBirimId");
+				settings.Columns.Add("AdetSayisi");
+				settings.Columns.Add("Grup");
+				settings.Columns.Add("OlcuBirim");
+				settings.Columns.Add("StokCikis");
+				settings.Columns.Add("StokGiris");
+			});
+		if (ViewData["EditError"] != null){
+        grid.SetEditErrorText((string)ViewData["EditError"]);
+    }
+}
+@grid.Bind(Model).GetHtml()
